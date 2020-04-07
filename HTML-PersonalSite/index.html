@@ -4,24 +4,80 @@
     <!--meta give extra data to it utf8 is all allowed characters to prevent mokobaji-->
     <meta charset="UTF-8">
     <title>Yineng's Personal Site</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- <img src="https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png" alt="profile picture"> -->
-    <img src="Thinking-of-getting-a-cat.png" alt="cat" width="500" height="=250">
-    <h1>Yineng Zhang</h1>
-    <p><em>Programming student at</em> <strong>42 Silicon Valley</strong></p>
-    <p>I have a strong foundation in low level programming and am currently learning webdev.</p>
+
+    <table cellspacing="20px">
+        <tr>
+            <td><img src="Thinking-of-getting-a-cat.png" alt="cat" width="500" height="250"></td>
+            <td>
+                <h1>Yineng Zhang</h1>
+                <p><em>Programming student at</em> <strong><a href="https://www.42.us.org">42 Silicon Valley</a></strong></p>
+                <p>I have a strong foundation in low level programming and am currently learning webdev.</p>
+            </td>
+        </tr>
+    </table>
     <hr>
     <h3>Education</h3>
     <ul> 
-        <li>Northeastern University</li>
-        <li>42 Silicon Valley</li>
+        <li><a href="https://www.northeastern.edu/">Northeastern University</a></li>
+        <li><a href="https://www.42.us.org">42 Silicon Valley</a></li>
     </ul>
-    <h3>My Hobbies</h3>
-    <ol>
-        <li>Programming</li>
-        <li>Sleeping</li>
-        <li>Eating</li>
-    </ol>
+    <table>
+        <thead>
+            <th>Date</th>
+            <th>Work</th>
+        </thead>
+        
+        <tbody>
+        <tr>
+            <td>2015-2015</td>
+            <td>Business Analyst at John Hancock</td>
+        </tr>
+        <tr>
+            <td>2017</td>
+            <td>FPA at Moderna Therapeutics</td>
+        </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+    <table>
+        <tr>
+            <td>
+            <table>
+                <tr>
+                    <td>Webdev</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>C Programming</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Python Programming</td>
+                    <td>⭐⭐⭐</td>
+                </tr>
+            </table>
+            </td>
+            <td>
+            <table>
+                <tr>
+                    <td>Financial Analysis</td>
+                    <td>⭐⭐⭐⭐⭐</td>
+                </tr>
+                <tr>
+                    <td>Accounting</td>
+                    <td> ⭐⭐⭐⭐</td>
+                </tr>
+            </table>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <a href="hobbies.html">My Hobbies</a></br>
+    <a href="contact.html">Contact Me</a>
 </body>
 </html>
